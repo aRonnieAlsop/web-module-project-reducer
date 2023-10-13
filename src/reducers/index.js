@@ -1,9 +1,9 @@
 import { ADD_ONE, APPLY_NUMBER, CHANGE_OPERATION } from './../actions';
 
 export const initialState = {
-    total: 100,
-    operation: "*",
-    memory: 100
+    total: 1000,
+    operation: "+",
+    memory: 1000
 }
 
 const calculateResult = (num1, num2, operation) => {
